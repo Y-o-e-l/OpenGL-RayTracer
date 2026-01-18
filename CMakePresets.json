@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "PPMImages",
+            "description": "Default Settings for CMake Projects Involving PPM Format",
+            "hidden": false,
+            "generator": "Ninja",
+            "binaryDir": "${Downloads/Projects/Raytracer}/build",
+            "cacheVariables": {"CMAKE_BUILD_TYPE":"Debug",
+                    "CMAKE_EXPORT_COMPILE_COMMANDS": "YES"}
+        }
+    ]
+}
